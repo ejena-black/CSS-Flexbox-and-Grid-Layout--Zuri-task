@@ -1,0 +1,29 @@
+body{
+    background: #000;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 320px);
+    gap: 10px;
+}
+.nested{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    grid-column: 3/5;
+}
+.child{
+    background: rgb(21, 157, 211);
+}
+#one{
+    background: hsl(0, 100%, 74%);
+    grid-column: 1/4;
+}
+#two{
+    background: rgb(237, 200, 14);
+}
+#three{
+    background: hsl(154, 59%, 51%);
+    grid-column: 1/3;
+}
