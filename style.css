@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/* *******************CSS FLEXBOX********************** */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+section{
+    padding: 50px;
+    height: 55vh;
+}
+div{
+    height: 70%;
+}
+h2{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 38px;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.5;
+}
+button{
+    background: hsl(0, 0%, 95%);
+    border: none;
+    height: 40px;
+    border-radius: 30px;
+    width: 8vw;
+    font-family: 'Lexend Deca', sans-serif;
+}
+button:active{
+    cursor: pointer;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+
+#sedans{
+    background: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+#suvs{
+    background: hsl(184, 100%, 22%);
+}
+#luxury{
+    background: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+#sedans button{
+    color: hsl(31, 77%, 52%);
+}
+#suvs button{
+    color: hsl(184, 100%, 22%);
+}
+#luxury button{
+    color: hsl(179, 100%, 13%);
+}
+
+#sedans button:active{
+    background: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+#suvs button:active{
+    background: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+#luxury button:active{
+    background: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+/* **************************CSS GRID******************** */
