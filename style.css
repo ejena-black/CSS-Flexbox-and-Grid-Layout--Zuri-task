@@ -10,6 +10,20 @@ body{
     background: hsl(0, 0%, 95%);
     font-size: 15px;
 }
+header{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lexend Deca';
+    font-size: 20px;
+}
+a:hover{
+    color: hsl(184, 100%, 22%);
+}
 
 main{
     display: flex;
